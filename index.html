@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2><center> <i> Profile   </i></center></h2>
+
+<p id="demo"></p>
+    <center>
+    <img src="C:\Users\kumar\OneDrive\Desktop\HTML\udayUI\assets.JPG" alt="uday  Avatar">
+    <h3>uday mela</h3>
+    <h5> The other details are displayed in the console</h5>
+</center>
+<style>
+    img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250Spx;
+}
+
+p {
+  margin: 0px auto;
+  text-align: center;
+}
+  </style>
+
+
+<script>
+// Create an object:
+const person = {
+  FirstName: "uday",
+  LastName: "mela",
+  Age: 24,
+  EyeColor: "black",
+  DOB:"11-24-1998",
+  Hobbies:["Driving", "movies", "Cooking", "Playing Sports"],
+  Phoneno:"9407582762",
+  Undergrad: "LPU",
+  University: "UNT",
+  Gender: "Male"
+};
+
+
+
+console.log(person);
+console.log(person.Hobbies[2]);
+
+
+document.getElementById("demo").innerHTML =  "My Least Fav Hobby is " +
+person.Hobbies[3];
+
+</script>
+/<html>
+/<body>
